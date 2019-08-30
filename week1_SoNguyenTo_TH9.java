@@ -31,7 +31,10 @@ public class week1_SoNguyenTo_TH9 {
             int squareRoot = (int)Math.sqrt(n);
             for(int i = 3;i <= squareRoot ;i++)
             {
-                return  false;
+               if(n % i == 0 )
+               {
+                   return false;
+               }
             }
         }
         return true;
